@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: c9422a844daff2540868c5b7da9403fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8305947341336294614
+    second: RageTransformation_0
+  - first:
+      213: -5888257629365144900
+    second: RageTransformation_1
+  - first:
+      213: 52234257657787578
+    second: RageTransformation_2
+  - first:
+      213: -31012266802304766
+    second: RageTransformation_3
+  - first:
+      213: -3881422496766045759
+    second: RageTransformation_4
+  - first:
+      213: -4619917855184665730
+    second: RageTransformation_5
+  - first:
+      213: -301542127678349609
+    second: RageTransformation_6
+  - first:
+      213: -3285356978087256513
+    second: RageTransformation_7
+  - first:
+      213: -9025289983250545802
+    second: RageTransformation_8
+  - first:
+      213: 4628891172007331282
+    second: RageTransformation_9
+  - first:
+      213: -6470617971974162839
+    second: RageTransformation_10
+  - first:
+      213: 2146143748768151568
+    second: RageTransformation_11
+  - first:
+      213: -1004095158486968282
+    second: RageTransformation_12
+  - first:
+      213: -6599909111459636870
+    second: RageTransformation_13
+  - first:
+      213: 7812366391228408546
+    second: RageTransformation_14
+  - first:
+      213: 8874927799719045694
+    second: RageTransformation_15
+  - first:
+      213: -1176137871615061061
+    second: RageTransformation_16
+  - first:
+      213: -2294005927805883148
+    second: RageTransformation_17
+  - first:
+      213: 3089801118826882116
+    second: RageTransformation_18
+  - first:
+      213: 9078195782335792323
+    second: RageTransformation_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RageTransformation_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 163
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bcc8c56e85bbc80800000000000000
+      internalID: -8305947341336294614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 163
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2f4b722e4b84ea0800000000000000
+      internalID: -5888257629365144900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 163
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab47cc4d7c299b000800000000000000
+      internalID: 52234257657787578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 163
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209a195f182d19ff0800000000000000
+      internalID: -31012266802304766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 123
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1dc09cdca622ac0800000000000000
+      internalID: -3881422496766045759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 123
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73cb362031c2efb0800000000000000
+      internalID: -4619917855184665730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 123
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de9ae25805b0dbf0800000000000000
+      internalID: -301542127678349609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 123
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e12c82c311862d0800000000000000
+      internalID: -3285356978087256513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 83
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673c579049abfb280800000000000000
+      internalID: -9025289983250545802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 83
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5407bfeff1d3040800000000000000
+      internalID: 4628891172007331282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_10
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 83
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966b83fbc3fb336a0800000000000000
+      internalID: -6470617971974162839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_11
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 83
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01830466e52a8cd10800000000000000
+      internalID: 2146143748768151568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 43
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628d1b5f5ccb012f0800000000000000
+      internalID: -1004095158486968282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 43
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79959581a96864a0800000000000000
+      internalID: -6599909111459636870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 41
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2ae5457d91b6c60800000000000000
+      internalID: 7812366391228408546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 70
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a2e7dffc31a2b70800000000000000
+      internalID: 8874927799719045694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 39
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3108356d48dafe0800000000000000
+      internalID: -1176137871615061061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_17
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 72
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc6d7843cd0a20e0800000000000000
+      internalID: -2294005927805883148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_18
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444e7424fbd21ea20800000000000000
+      internalID: 3089801118826882116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RageTransformation_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4039737fa3cfd70800000000000000
+      internalID: 9078195782335792323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RageTransformation_0: -8305947341336294614
+      RageTransformation_1: -5888257629365144900
+      RageTransformation_10: -6470617971974162839
+      RageTransformation_11: 2146143748768151568
+      RageTransformation_12: -1004095158486968282
+      RageTransformation_13: -6599909111459636870
+      RageTransformation_14: 7812366391228408546
+      RageTransformation_15: 8874927799719045694
+      RageTransformation_16: -1176137871615061061
+      RageTransformation_17: -2294005927805883148
+      RageTransformation_18: 3089801118826882116
+      RageTransformation_19: 9078195782335792323
+      RageTransformation_2: 52234257657787578
+      RageTransformation_3: -31012266802304766
+      RageTransformation_4: -3881422496766045759
+      RageTransformation_5: -4619917855184665730
+      RageTransformation_6: -301542127678349609
+      RageTransformation_7: -3285356978087256513
+      RageTransformation_8: -9025289983250545802
+      RageTransformation_9: 4628891172007331282
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
