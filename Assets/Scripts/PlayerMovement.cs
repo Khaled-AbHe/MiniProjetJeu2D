@@ -1,12 +1,18 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 12f;
+
+    [HideInInspector] public bool slowPlayer = false;
+
+    // Set true by PlayerMagicAbilities while a Siphon Dash is in progress.
+    // While true, normal horizontal movement is suspended so the dash has
+    // full control of the Rigidbody's velocity.
+    [HideInInspector] public bool isDashing = false;
 
     [Header("Ground Check")]
     [SerializeField] private Transform groundCheck;          // Empty child object at the player's feet
@@ -16,8 +22,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private float horizontalInput;
-    private bool isGrounded;
+    [HideInInspector] public bool isGrounded;
     private bool isFacingRight = true;
+
+    public bool IsFacingRight => isFacingRight;
 
     private void Awake()
     {
@@ -34,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
         // Jump: "Jump" maps to Space by default
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded && !isDashing)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
@@ -42,13 +50,17 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("IsGrounded", isGrounded);
         anim.SetBool("IsMoving", Mathf.Abs(horizontalInput) > 0);
 
-        HandleFlip();
+        if (!isDashing) HandleFlip();
     }
 
     private void FixedUpdate()
     {
+        // While a Siphon Dash is active, PlayerMagicAbilities drives velocity directly.
+        if (isDashing) return;
+
         // Move horizontally while preserving vertical velocity (gravity/jumping)
-        rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
+        float currSpeed = slowPlayer ? moveSpeed / 2 : moveSpeed;
+        rb.linearVelocity = new Vector2(horizontalInput * currSpeed, rb.linearVelocity.y);
     }
 
     private void HandleFlip()
@@ -66,11 +78,7 @@ public class PlayerMovement : MonoBehaviour
     private void Flip()
     {
         isFacingRight = !isFacingRight;
-
-        // Flipping localScale also flips any child objects (weapons, effects, etc.)
-        Vector3 scale = transform.localScale;
-        scale.x *= -1f;
-        transform.localScale = scale;
+        Facing2D.Flip(transform);
     }
 
     // Shows the ground check circle in the Scene view
@@ -80,4 +88,4 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     }
-} 
+}
