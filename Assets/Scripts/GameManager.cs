@@ -19,11 +19,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Note: this used to restart the level immediately on
-    // PlayerHealth.OnPlayerDeath. That's now handled by PlayerDeath (death
-    // animation) and GameOverUI (Restart/Quit buttons) instead, so the
-    // player gets a proper death sequence rather than an instant reload.
-
     /// <summary>
     /// Reloads the currently active scene. Called by GameOverUI's Restart button.
     /// </summary>
@@ -38,16 +33,40 @@ public class GameManager : MonoBehaviour
     }
 
     /// <summary>
+    /// Loads the next scene in Build Settings order (the scene one index
+    /// after the currently active one). Called by PorteSortie when no
+    /// specific scene name is assigned. Requires the scenes to be added to
+    /// File > Build Settings > Scenes In Build, in the intended order.
+    /// </summary>
+    public void LoadNextScene()
+    {
+        Time.timeScale = 1f;
+
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextIndex = currentIndex + 1;
+
+        if (nextIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextIndex);
+        }
+        else
+        {
+            Debug.LogWarning("GameManager: No next scene found in Build Settings after the current one.");
+        }
+    }
+
+    /// <summary>
     /// Quits the game. Called by GameOverUI's Quit button.
     /// </summary>
     public void QuitGame()
     {
         Time.timeScale = 1f;
 
+
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-        Application.Quit();
+            Application.Quit();
 #endif
     }
 }

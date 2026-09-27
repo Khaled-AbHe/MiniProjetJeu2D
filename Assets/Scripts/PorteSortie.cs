@@ -8,8 +8,6 @@ public class PorteSortie : MonoBehaviour
         {
             return;
         }
-
-        Debug.Log("MISSION RÉUSSIE !");
-        Destroy(autre.gameObject);
+        GameManager.Instance.LoadNextScene();
     }
 }
