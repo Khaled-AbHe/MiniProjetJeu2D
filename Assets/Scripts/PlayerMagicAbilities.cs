@@ -128,7 +128,6 @@ public class PlayerMagicAbilities : MonoBehaviour
     private IEnumerator SiphonHealRoutine()
     {
         IsCastingHeal = true;
-        if (animator != null) animator.SetTrigger("HealCast");
 
         yield return new WaitForSeconds(healCastTime);
 
