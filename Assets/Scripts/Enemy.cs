@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, IDamageable
 {
     // Added 'Stunned' to our state machine
     private enum EnemyState { Patrolling, Chasing, Attacking, Stunned }
